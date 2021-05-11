@@ -13,6 +13,5 @@ app.use(cors());
 
 app.use(userRouter);
 app.use(taskRouter);
-app.use(require('cors')());
 
 module.exports = app;
